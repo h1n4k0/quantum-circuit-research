@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "candidate": "candidates/hhl/anf_v1/circuit.py",
+  "candidate_sha256": "12d60c4d8963f8eafc5f90abb4d446391100d4d84b9560cba0f6b68b7fa0a6c5",
+  "constants_sha256": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "scope": {
+    "pre_fixup_executable_ast_identical": true,
+    "constants_identical": true,
+    "full_arithmetic_domain_values": 2031616,
+    "gate_level_cases": 71424,
+    "distinct_decoder_input_classes": 7936,
+    "measurement_outcomes": "all, via affine per-draw ledger on tested inputs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "not_proved": "Not an exhaustive gate-level test over all 2^33 accumulator values; simulator and arithmetic model are upstream implementations."
+  },
+  "metrics": {
+    "toffoli": 1273,
+    "peak_logical_qubits": 115
+  },
+  "max_error_integer_units": 427,
+  "max_error_unrounded_units": 427.1465177536011,
+  "max_error_radians": 9.945279866307999e-08,
+  "wall_seconds": 1.6010338340001908
+}

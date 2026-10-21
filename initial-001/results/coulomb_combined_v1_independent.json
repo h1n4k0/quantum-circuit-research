@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "candidate": "candidates/coulomb/combined_v1/circuit.py",
+  "candidate_sha256": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "scope": {
+    "exact_oracle_domain_values": 195075,
+    "attainable_squared_distances": 139637,
+    "gate_level_cases": 837822,
+    "coordinate_witnesses": "one magnitude triple per attainable squared distance, both signs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "measurement_outcomes": "all via affine per-draw ledger on tested inputs",
+    "not_proved": "Not all coordinate pairs or accumulator values; circuit semantics are upstream strict Simulator, independently selected tests and exact integer oracle."
+  },
+  "metrics": {
+    "toffoli": 1110,
+    "peak_logical_qubits": 142
+  },
+  "oracle_matches_float_all_values": true,
+  "domain_sha256": "f52f7e1b110369374daea81136a21c36eca11364ccb2653b725d4f6ba6b1e8cc",
+  "oracle_sha256": "3de8b2b0b3063d0f46aa4cbcf528173b73d4cf0d28d0a2fac27491238d804439",
+  "max_integer_error_attainable": 32,
+  "max_integer_error_all_positive_values": 32,
+  "true_error_upper_bound": 1.9371509552001953e-06,
+  "true_error_requirement": 2e-06,
+  "boundary_norms": [
+    1,
+    4,
+    131,
+    141,
+    209
+  ],
+  "wall_seconds": 6.716996641000151
+}

@@ -1,0 +1,30 @@
+{
+  "snapshot": "initial-001",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "license": "Upstream Apache-2.0; no blanket license for original contributions (see ../LICENSING.md)",
+  "files": {
+    "RESEARCH_SNAPSHOT.md": "657f048051036e0f14599f99e693ddaaaf46660c9769f04695faa375887e96e2",
+    "UPSTREAM_LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "candidates/coulomb/combined_v1/circuit.ops.xz": "fd48ae0f75057afaadac8867ffcc27f840b4227d5515c2e467861d0ea231ce25",
+    "candidates/coulomb/combined_v1/circuit.py": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+    "candidates/coulomb/combined_v1/meta.json": "4421b997ad3041575e2f440883d5ed43c4b4881548a18853c70fb0714d16af68",
+    "candidates/hhl/anf_v1/checks.py": "5f8823b4fbd3d9b6168366393517b516d501a24e3373ececa67c65aa9f8f9b8e",
+    "candidates/hhl/anf_v1/circuit.ops.xz": "d2eb074b2785c4e80255a43b58623efaea93dc459e9b96f866d7a0018f5986e0",
+    "candidates/hhl/anf_v1/circuit.py": "12d60c4d8963f8eafc5f90abb4d446391100d4d84b9560cba0f6b68b7fa0a6c5",
+    "candidates/hhl/anf_v1/constants.json": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+    "candidates/hhl/anf_v1/gen_constants.py": "8c5c1ccbf1ffd049c0e5434da4b028983ebed4031c65df268d85718892a95377",
+    "results/coulomb_combined_v1_independent.json": "422398042338af916d6b1ddc9d1a57c1dcad3e6bacdd9c45ac3f9d3a8507b17c",
+    "results/coulomb_combined_v1_official.json": "95ee6a60e04d466c4e8aed8129a230faa300161e14c029942b4e9e63b4410fde",
+    "results/coulomb_published_emitted_official.json": "1ab100a59893fa6c48a16921a1b2ce74223bcf7a98913a975ed2c0cdb8f8e75d",
+    "results/coulomb_published_stored_official.json": "c73e1647d583f325d61887f931216c6d896685769de63d80d26ce4e82e28bcb9",
+    "results/hhl_anf_v1_independent.json": "ef6eacec0baf2873e8d1ffb620943d540b7633a18952220da6a9fd70faf22580",
+    "results/hhl_anf_v1_official.json": "1c6551e92fce82fdb91f5ab51c197faefb1161d0b7b3f39583c301143d811a0a",
+    "results/hhl_published_official.json": "aef2a748b159ddbc4f0ed4ebb89044b1e2a6a8df5e68a1d154b7026cd834f54a",
+    "verification/audit_coulomb_candidate.py": "1bb58d8d68d43f3ce1469736585fd73da140fe626563a70c98ee7a8f9bee18f1",
+    "verification/audit_hhl_candidate.py": "123dd9dcb0454f41ffad42a6128fdedc6bc573b0f5c62fbc33a250a0f012336c"
+  },
+  "original_manifest_sha256": "a92d82db3bcfa2114f2317fb2455467616da61d2ec86794e7b5964e168d7a9c4",
+  "publication_changes": [
+    "RESEARCH_SNAPSHOT.md: removed assignment of Apache-2.0 to original validation scripts; pointed to repository licensing scope."
+  ]
+}
