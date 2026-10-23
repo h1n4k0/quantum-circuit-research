@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "task": "coulomb",
+  "source_sha256": "1379ef3398d3ac735bee2d4c4c4c045b77cce0500db506d91163a6fbfcc11cb7",
+  "raw_sha256": "e4dbbbc9cc2db8f76afb4c8713efd04ec9ee351b154e77a969ee1034d03f65a9",
+  "raw_bytes": 115520,
+  "source_emission_byte_identical": true,
+  "actual_flat_records": 11165,
+  "metrics": {
+    "toffoli": 1097.0,
+    "clifford": 7285.0,
+    "qubits": 142,
+    "outcomes": 1946,
+    "bits": 0,
+    "ops": 11165,
+    "shots": 9019,
+    "tq_cost": 155774
+  },
+  "TQ": 155774.0,
+  "scope": {
+    "exact_oracle_domain_values": 195075,
+    "attainable_squared_distances": 139637,
+    "gate_level_cases": 837822,
+    "coordinate_witnesses": "one magnitude triple per attainable squared distance, both signs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "measurement_outcomes": "all via affine per-draw ledger on tested inputs",
+    "not_proved": "Not all coordinate pairs or accumulator values; circuit semantics are upstream strict Simulator, independently selected tests and exact integer oracle."
+  },
+  "strict_report_sha256": "b319f0fd6b252ac8267ca52f0a274fbd3b2b8f0de589f5d4fd6c1ca5f0af8d03",
+  "official_report_sha256": "555ddeb57d3b26ccc80dbef3991cd394b4f03a69129f18df685111babd7f302c",
+  "audit_script_sha256": "1bb58d8d68d43f3ce1469736585fd73da140fe626563a70c98ee7a8f9bee18f1",
+  "binder_sha256": "aa055efa0f54171be8afcbebf57030becbe44acc16dbc80762da7075f96dd900",
+  "limitations": "Fresh independent invocation, not an independent simulator implementation. Official cases are sampled. Strict all-outcome checking applies to the stated basis-input tests, not every coordinate/accumulator. Logical Toffoli/Q proxies do not claim hardware speed.",
+  "wall_seconds": 1.1762224400008563
+}

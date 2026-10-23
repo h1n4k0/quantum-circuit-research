@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Actual captured entire qrom stage; all 128 physical addresses, all 2^24 dirty output words via explicitly checked affine-output grammar, all independent HMR records via symbolic ledger. Scratch clean at entry from allocator and previous reset checks. Does not prove complete-circuit approximation or all coordinate/accumulator cases.",
+  "candidate_sha256": "1379ef3398d3ac735bee2d4c4c4c045b77cce0500db506d91163a6fbfcc11cb7",
+  "checker_sha256": "cf3aa4604fa86dcb49b37c406068da0be930aa9fb79bbe0bb13edcdaa44bb715",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "expanded_lookup_u64le_sha256": "5fafcff9f8b52510cde379c67966a187c5790057c92b34e149a48ce7c089d006",
+  "table_u32le_sha256": "1bc5b4c819a375ade46ff09d88363594c699ee8d730243d00b5ec96b06dfca56",
+  "actual_lookup": {
+    "independent_hmr_draws": 27,
+    "toffoli": 107,
+    "symbolic_dirty_outputs": 24,
+    "addresses": 128,
+    "operations": 2415
+  },
+  "allocator": {
+    "entry_live": 122,
+    "peak_live": 142,
+    "exit_live": 122,
+    "distinct_scratch_ids": 20,
+    "entry_and_exit_live_sets_equal": true,
+    "preexisting_scratch_final_access_reset": true
+  },
+  "omission_mutants": [
+    {
+      "deleted_kind": 3,
+      "index": 45,
+      "rejected": true
+    },
+    {
+      "deleted_kind": 4,
+      "index": 1764,
+      "rejected": true
+    },
+    {
+      "deleted_kind": 6,
+      "index": 1,
+      "rejected": true
+    }
+  ]
+}

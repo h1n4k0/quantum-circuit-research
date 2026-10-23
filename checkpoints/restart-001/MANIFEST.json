@@ -1,0 +1,15 @@
+{
+  "schema": "quantum-checkpoint-sha256-v1",
+  "scope": "Identity recovery only; no new circuit execution or proof.",
+  "files": {
+    "PEER.md": "69525cffad01b20be0d28549988c705c79ad23f701ac1ac7ee0cdcb88404a9c1",
+    "README.md": "674736519464ee5dbb1257b4f041d6d63ae834781fbdb518f575d87cb051a385",
+    "initial_identity.json": "432d5b212720c0508fff85f539330f1a3485ac17f9d47948752bf7a3dcc3b997",
+    "initial_identity_peer_v1_failure.json": "0d69642e375286643f9d2a059d720b5d019853e52e9882cb594f8e923ad12f3e",
+    "initial_identity_peer_v2.json": "e843946da9bd91105369157d3bd92128da0e55bee4154ab3fc31192fa33c41a7",
+    "peer_initial_identity.py": "4496c65b886318bcfe9e59b9e5ee71c7d9ec128649c390a55e255263f39a1775",
+    "peer_initial_identity_v2.py": "2931bf4112ca355d15d23f0662f1a05493483d897b613cb5514883689e98373b",
+    "result.json": "e8a53fc78d3a5bac7cf05351f7c185524dbe604d1875b5b618408d6a827112e3",
+    "verify_initial_identity.py": "64676a3cb361f9df70309d08571fa3c6f4dd392b99c249f12d3f1f6f8adb79f1"
+  }
+}

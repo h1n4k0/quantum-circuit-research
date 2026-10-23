@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "python": "3.12.14",
+  "input_sha256": {
+    "candidates/hhl/anf_v1/circuit.py": "12d60c4d8963f8eafc5f90abb4d446391100d4d84b9560cba0f6b68b7fa0a6c5",
+    "candidates/hhl/anf_v1/constants.json": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+    "candidates/hhl/anf_v1/circuit.ops.xz": "d2eb074b2785c4e80255a43b58623efaea93dc459e9b96f866d7a0018f5986e0",
+    "verification/audit_hhl_candidate.py": "123dd9dcb0454f41ffad42a6128fdedc6bc573b0f5c62fbc33a250a0f012336c"
+  },
+  "source_stream_sha256": "b6041c74cdbee72641967a11fb54318d4776204c84785942133f6e6698c64eea",
+  "source_and_stored_bytes_identical": true,
+  "metrics": {
+    "released": {
+      "toffoli": 1348.0,
+      "clifford": 56419.0,
+      "qubits": 115,
+      "outcomes": 1040,
+      "bits": 0,
+      "ops": 58977,
+      "shots": 8741,
+      "tq_cost": 155020
+    },
+    "source": {
+      "toffoli": 1273.0,
+      "clifford": 14889.0,
+      "qubits": 115,
+      "outcomes": 8902,
+      "bits": 0,
+      "ops": 33173,
+      "shots": 8702,
+      "tq_cost": 146395
+    },
+    "stored": {
+      "toffoli": 1273.0,
+      "clifford": 14889.0,
+      "qubits": 115,
+      "outcomes": 8902,
+      "bits": 0,
+      "ops": 33173,
+      "shots": 8702,
+      "tq_cost": 146395
+    }
+  },
+  "strict_scope": {
+    "pre_fixup_executable_ast_identical": true,
+    "constants_identical": true,
+    "full_arithmetic_domain_values": 2031616,
+    "gate_level_cases": 71424,
+    "distinct_decoder_input_classes": 7936,
+    "measurement_outcomes": "all, via affine per-draw ledger on tested inputs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "not_proved": "Not an exhaustive gate-level test over all 2^33 accumulator values; simulator and arithmetic model are upstream implementations."
+  },
+  "max_error_integer_units": 427,
+  "max_error_radians": 9.945279866307999e-08,
+  "evidence_sha256": {
+    "released/report.json": "e71bc7ca1ad46c38a4d795ea3a2d1c8f07e7f24fcf5ab5ef435e7ee37506f4ff",
+    "source/report.json": "65779c4a3de8a20cbd532d4d34044a24ea905e41b9da47fe45b296548b922ceb",
+    "stored/report.json": "1341ff4ac871d11270ac8397d11d0955db56e661af52fb52c6689ef299b20bc0",
+    "strict.json": "b29488a0568f95781a92296bf54a7b22716c768cd117b1a606c8819b468c311d",
+    "source.ops": "b6041c74cdbee72641967a11fb54318d4776204c84785942133f6e6698c64eea",
+    "released.ops": "99e0420de4dad782c0e8f1b5e8429ebd1c49035fc603e417c02a54374ad7513c"
+  },
+  "scope": "Fresh reproduction of recovered initial-001, not restoration of later lost candidates. Official tests are sampled; full arithmetic-model and 71424 gate checks do not prove all accumulators. Simulator and numerical model are upstream implementations.",
+  "wall_seconds": 1.888642850004544
+}

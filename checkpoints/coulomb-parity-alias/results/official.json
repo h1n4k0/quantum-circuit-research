@@ -1,0 +1,518 @@
+{
+  "verdict": "OK",
+  "fail": null,
+  "metrics": {
+    "toffoli": 1110.0,
+    "clifford": 6723.0,
+    "qubits": 141,
+    "outcomes": 2039,
+    "bits": 0,
+    "ops": 10616,
+    "shots": 9015,
+    "tq_cost": 156510
+  },
+  "counters": {
+    "wrong_output_shots": 0,
+    "wrong_sign_shots": 0,
+    "dirty_qubits": 0,
+    "failed_shots": 0
+  },
+  "h_ops": "a4c98da79d3559c497bf55178e85ad8db37fc49ed5b3c5c0c1af3758e1d98517",
+  "timing": {
+    "total_s": 0.151625394821167
+  },
+  "circuit_meta": {
+    "peak_qubits": 141,
+    "peak_phase": "subtract/lo8",
+    "total_emitted_toffoli": 1110,
+    "total_emitted_clifford": 6723,
+    "phases": [
+      {
+        "name": "init",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 73
+      },
+      {
+        "name": "diffs/setup",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 76
+      },
+      {
+        "name": "diffs/ax0",
+        "toffoli": 15,
+        "clifford": 121,
+        "peak": 84
+      },
+      {
+        "name": "diffs/ax1",
+        "toffoli": 15,
+        "clifford": 121,
+        "peak": 84
+      },
+      {
+        "name": "diffs/ax2",
+        "toffoli": 15,
+        "clifford": 121,
+        "peak": 84
+      },
+      {
+        "name": "squarer/a0g1",
+        "toffoli": 8,
+        "clifford": 3,
+        "peak": 94
+      },
+      {
+        "name": "squarer/a2g1",
+        "toffoli": 19,
+        "clifford": 123,
+        "peak": 114
+      },
+      {
+        "name": "squarer/a1g1",
+        "toffoli": 20,
+        "clifford": 129,
+        "peak": 115
+      },
+      {
+        "name": "squarer/a2g3",
+        "toffoli": 14,
+        "clifford": 88,
+        "peak": 108
+      },
+      {
+        "name": "squarer/a1g3",
+        "toffoli": 15,
+        "clifford": 94,
+        "peak": 109
+      },
+      {
+        "name": "squarer/a0g3",
+        "toffoli": 15,
+        "clifford": 94,
+        "peak": 109
+      },
+      {
+        "name": "squarer/a2g2",
+        "toffoli": 20,
+        "clifford": 130,
+        "peak": 114
+      },
+      {
+        "name": "squarer/a2g4",
+        "toffoli": 18,
+        "clifford": 106,
+        "peak": 112
+      },
+      {
+        "name": "squarer/a1g2",
+        "toffoli": 21,
+        "clifford": 136,
+        "peak": 115
+      },
+      {
+        "name": "squarer/a0g2",
+        "toffoli": 21,
+        "clifford": 136,
+        "peak": 115
+      },
+      {
+        "name": "squarer/a1g4",
+        "toffoli": 19,
+        "clifford": 112,
+        "peak": 113
+      },
+      {
+        "name": "squarer/a0g4",
+        "toffoli": 19,
+        "clifford": 112,
+        "peak": 113
+      },
+      {
+        "name": "norm-parity/borrow",
+        "toffoli": 0,
+        "clifford": 4,
+        "peak": 94
+      },
+      {
+        "name": "normalize/setup",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 97
+      },
+      {
+        "name": "normalize/z8",
+        "toffoli": 17,
+        "clifford": 42,
+        "peak": 104
+      },
+      {
+        "name": "normalize/z4",
+        "toffoli": 17,
+        "clifford": 38,
+        "peak": 100
+      },
+      {
+        "name": "normalize/z2",
+        "toffoli": 15,
+        "clifford": 32,
+        "peak": 98
+      },
+      {
+        "name": "normalize/z1",
+        "toffoli": 13,
+        "clifford": 27,
+        "peak": 97
+      },
+      {
+        "name": "qrom/setup",
+        "toffoli": 120,
+        "clifford": 1713,
+        "peak": 127
+      },
+      {
+        "name": "multiply/row0",
+        "toffoli": 5,
+        "clifford": 0,
+        "peak": 132
+      },
+      {
+        "name": "multiply/row1",
+        "toffoli": 13,
+        "clifford": 48,
+        "peak": 138
+      },
+      {
+        "name": "multiply/row2",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "multiply/row3",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "multiply/row4",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "multiply/row5",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "subtract/lo8",
+        "toffoli": 8,
+        "clifford": 70,
+        "peak": 141
+      },
+      {
+        "name": "subtract/hi9",
+        "toffoli": 8,
+        "clifford": 58,
+        "peak": 141
+      },
+      {
+        "name": "subtract/restore",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 133
+      },
+      {
+        "name": "subtract/widen",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 140
+      },
+      {
+        "name": "patch",
+        "toffoli": 2,
+        "clifford": 33,
+        "peak": 141
+      },
+      {
+        "name": "shift/s1",
+        "toffoli": 18,
+        "clifford": 36,
+        "peak": 141
+      },
+      {
+        "name": "shift/s2",
+        "toffoli": 19,
+        "clifford": 38,
+        "peak": 141
+      },
+      {
+        "name": "shift/s4",
+        "toffoli": 21,
+        "clifford": 42,
+        "peak": 141
+      },
+      {
+        "name": "accumulate",
+        "toffoli": 48,
+        "clifford": 97,
+        "peak": 141
+      },
+      {
+        "name": "un-shift",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 0
+      },
+      {
+        "name": "un-shift/s4",
+        "toffoli": 21,
+        "clifford": 42,
+        "peak": 141
+      },
+      {
+        "name": "un-shift/s2",
+        "toffoli": 19,
+        "clifford": 38,
+        "peak": 141
+      },
+      {
+        "name": "un-shift/s1",
+        "toffoli": 18,
+        "clifford": 36,
+        "peak": 141
+      },
+      {
+        "name": "un-patch",
+        "toffoli": 2,
+        "clifford": 34,
+        "peak": 141
+      },
+      {
+        "name": "un-subtract",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 0
+      },
+      {
+        "name": "un-subtract/widen",
+        "toffoli": 0,
+        "clifford": 7,
+        "peak": 140
+      },
+      {
+        "name": "un-subtract/restore",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 133
+      },
+      {
+        "name": "un-subtract/hi9",
+        "toffoli": 8,
+        "clifford": 58,
+        "peak": 141
+      },
+      {
+        "name": "un-subtract/lo8",
+        "toffoli": 8,
+        "clifford": 71,
+        "peak": 141
+      },
+      {
+        "name": "un-multiply",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 0
+      },
+      {
+        "name": "un-multiply/row5",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "un-multiply/row4",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "un-multiply/row3",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "un-multiply/row2",
+        "toffoli": 15,
+        "clifford": 57,
+        "peak": 139
+      },
+      {
+        "name": "un-multiply/row1",
+        "toffoli": 13,
+        "clifford": 54,
+        "peak": 138
+      },
+      {
+        "name": "un-multiply/row0",
+        "toffoli": 0,
+        "clifford": 15,
+        "peak": 126
+      },
+      {
+        "name": "un-qrom/measure",
+        "toffoli": 0,
+        "clifford": 48,
+        "peak": 121
+      },
+      {
+        "name": "un-qrom/bimonomials",
+        "toffoli": 15,
+        "clifford": 151,
+        "peak": 113
+      },
+      {
+        "name": "un-normalize",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 0
+      },
+      {
+        "name": "un-normalize/z1",
+        "toffoli": 13,
+        "clifford": 27,
+        "peak": 97
+      },
+      {
+        "name": "un-normalize/z2",
+        "toffoli": 15,
+        "clifford": 32,
+        "peak": 98
+      },
+      {
+        "name": "un-normalize/z4",
+        "toffoli": 17,
+        "clifford": 38,
+        "peak": 100
+      },
+      {
+        "name": "un-normalize/z8",
+        "toffoli": 17,
+        "clifford": 46,
+        "peak": 104
+      },
+      {
+        "name": "norm-parity/return",
+        "toffoli": 0,
+        "clifford": 3,
+        "peak": 94
+      },
+      {
+        "name": "un-squarer",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 0
+      },
+      {
+        "name": "un-squarer/a0g4",
+        "toffoli": 19,
+        "clifford": 112,
+        "peak": 113
+      },
+      {
+        "name": "un-squarer/a1g4",
+        "toffoli": 19,
+        "clifford": 112,
+        "peak": 113
+      },
+      {
+        "name": "un-squarer/a0g2",
+        "toffoli": 21,
+        "clifford": 136,
+        "peak": 115
+      },
+      {
+        "name": "un-squarer/a1g2",
+        "toffoli": 21,
+        "clifford": 136,
+        "peak": 115
+      },
+      {
+        "name": "un-squarer/a2g4",
+        "toffoli": 18,
+        "clifford": 106,
+        "peak": 112
+      },
+      {
+        "name": "un-squarer/a2g2",
+        "toffoli": 20,
+        "clifford": 130,
+        "peak": 114
+      },
+      {
+        "name": "un-squarer/a0g3",
+        "toffoli": 15,
+        "clifford": 94,
+        "peak": 109
+      },
+      {
+        "name": "un-squarer/a1g3",
+        "toffoli": 15,
+        "clifford": 94,
+        "peak": 109
+      },
+      {
+        "name": "un-squarer/a2g3",
+        "toffoli": 14,
+        "clifford": 88,
+        "peak": 108
+      },
+      {
+        "name": "un-squarer/a1g1",
+        "toffoli": 20,
+        "clifford": 129,
+        "peak": 115
+      },
+      {
+        "name": "un-squarer/a2g1",
+        "toffoli": 19,
+        "clifford": 123,
+        "peak": 114
+      },
+      {
+        "name": "un-squarer/a0g1",
+        "toffoli": 0,
+        "clifford": 37,
+        "peak": 94
+      },
+      {
+        "name": "un-diffs",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 0
+      },
+      {
+        "name": "un-diffs/ax2",
+        "toffoli": 15,
+        "clifford": 121,
+        "peak": 84
+      },
+      {
+        "name": "un-diffs/ax1",
+        "toffoli": 15,
+        "clifford": 121,
+        "peak": 84
+      },
+      {
+        "name": "un-diffs/ax0",
+        "toffoli": 15,
+        "clifford": 124,
+        "peak": 84
+      }
+    ]
+  }
+}
