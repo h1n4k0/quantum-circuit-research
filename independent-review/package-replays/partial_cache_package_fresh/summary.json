@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "source_sha256": "1379ef3398d3ac735bee2d4c4c4c045b77cce0500db506d91163a6fbfcc11cb7",
+  "raw_ops_sha256": "e4dbbbc9cc2db8f76afb4c8713efd04ec9ee351b154e77a969ee1034d03f65a9",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "metrics": {
+    "toffoli": 1097.0,
+    "clifford": 7285.0,
+    "qubits": 142,
+    "outcomes": 1946,
+    "bits": 0,
+    "ops": 11165,
+    "shots": 9019,
+    "tq_cost": 155774
+  },
+  "component": {
+    "independent_hmr_draws": 27,
+    "toffoli": 107,
+    "symbolic_dirty_outputs": 24,
+    "addresses": 128,
+    "operations": 2415
+  },
+  "whole_circuit_scope": {
+    "exact_oracle_domain_values": 195075,
+    "attainable_squared_distances": 139637,
+    "gate_level_cases": 837822,
+    "coordinate_witnesses": "one magnitude triple per attainable squared distance, both signs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "measurement_outcomes": "all via affine per-draw ledger on tested inputs",
+    "not_proved": "Not all coordinate pairs or accumulator values; circuit semantics are upstream strict Simulator, independently selected tests and exact integer oracle."
+  },
+  "artifact_unchanged": true,
+  "wall_seconds": 6.767858293002064
+}

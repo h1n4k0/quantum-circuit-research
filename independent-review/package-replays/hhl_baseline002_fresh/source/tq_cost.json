@@ -1,0 +1,7 @@
+{
+  "tq_cost": 146395,
+  "metrics": {
+    "toffoli": 1273,
+    "qubits": 115
+  }
+}

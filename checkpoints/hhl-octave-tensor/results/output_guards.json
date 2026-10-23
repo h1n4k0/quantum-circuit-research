@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "runner_sha256": "7fb8e811252f89633901ed511b4470c63c8480004a0d0dc6fad49b7363e7dff3",
+  "tests": [
+    {
+      "case": "package-descendant",
+      "rejected_before_mkdir": true,
+      "returncode": 1
+    },
+    {
+      "case": "manifest-ancestor-sibling",
+      "rejected_before_mkdir": true,
+      "returncode": 1
+    },
+    {
+      "case": "existing-output",
+      "rejected_before_mkdir": true,
+      "returncode": 1
+    }
+  ]
+}

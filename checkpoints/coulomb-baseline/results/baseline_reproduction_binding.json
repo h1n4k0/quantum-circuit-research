@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "kind": "fresh-reproduction-binding",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "public_checkpoint": "initial-001",
+  "public_manifest_sha256": "10b9414574ff28f2f8e6de34d5047288e0245a729af0fa368a93c3cc17cd2409",
+  "verified_manifest_payloads": 26,
+  "source_sha256": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+  "meta_sha256": "4421b997ad3041575e2f440883d5ed43c4b4881548a18853c70fb0714d16af68",
+  "compressed_ops_sha256": "fd48ae0f75057afaadac8867ffcc27f840b4227d5515c2e467861d0ea231ce25",
+  "expanded_ops_sha256": "17d49bccb9ae180982a3d0fb904e4d0d14da27e496f00da4cdc943968c182440",
+  "fresh_emission_byte_identical_to_published_stream": true,
+  "official_report_sha256": "59540453bf33b83e1af381d526b739c44a4a53f5504fc7cfed20876a9f83cba7",
+  "independent_report_sha256": "8b253d1817535b598e032f533a9a01c6b056ac9ba1c5947188913e8801238c92",
+  "metrics": {
+    "toffoli": 1110.0,
+    "clifford": 6716.0,
+    "qubits": 142,
+    "outcomes": 2039,
+    "bits": 0,
+    "ops": 10609,
+    "shots": 9018,
+    "tq_cost": 157620
+  },
+  "scope": {
+    "exact_oracle_domain_values": 195075,
+    "attainable_squared_distances": 139637,
+    "gate_level_cases": 837822,
+    "coordinate_witnesses": "one magnitude triple per attainable squared distance, both signs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "measurement_outcomes": "all via affine per-draw ledger on tested inputs",
+    "not_proved": "Not all coordinate pairs or accumulator values; circuit semantics are upstream strict Simulator, independently selected tests and exact integer oracle."
+  },
+  "limitation": "No claim over all coordinate pairs or all 2^25 accumulators; strict all-outcome checking is on the stated basis-input cases. Simulator and official evaluator are unchanged upstream code."
+}

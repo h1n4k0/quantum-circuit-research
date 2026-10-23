@@ -1,0 +1,413 @@
+{
+  "status": "SCREEN_ONLY",
+  "constants_sha256": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+  "invalid_selectors": "zero extension on addresses 0..255; no physical contract there",
+  "nonzero_anf_terms": 4820,
+  "partitions": 5720,
+  "best": [
+    {
+      "left": [
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 72,
+      "and_features": 129
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "left_bank": 72,
+      "right_bank": 57,
+      "and_features": 129
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        6,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        3,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        4,
+        5,
+        6,
+        7,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        4,
+        5,
+        7,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        4,
+        6,
+        7,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        5,
+        6,
+        7,
+        10,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 73,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        11
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        12
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        9
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        10
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        11
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        0,
+        1,
+        2,
+        7,
+        8,
+        9,
+        12
+      ],
+      "left_bank": 73,
+      "right_bank": 57,
+      "and_features": 130
+    },
+    {
+      "left": [
+        2,
+        4,
+        5,
+        6,
+        11,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 75,
+      "and_features": 132
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "left_bank": 57,
+      "right_bank": 75,
+      "and_features": 132
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ],
+      "left_bank": 57,
+      "right_bank": 75,
+      "and_features": 132
+    },
+    {
+      "left": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        12
+      ],
+      "left_bank": 57,
+      "right_bank": 75,
+      "and_features": 132
+    }
+  ],
+  "seconds": 5.293259060999844
+}

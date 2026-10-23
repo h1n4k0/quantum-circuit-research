@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "baseline_sha256": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+  "candidate_sha256": "bdbb62ac7537393aec212cb657aceeacdd5d15be3ebec9a5e30a456954cdccb4",
+  "peer_sha256": "f8cf3c1e9ee3496abafbffc495b16fc5f281d68e0dff8c3e5b56ccdd5361a62c",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "middle_records": 6724,
+  "zero_target_rebindings": 600,
+  "zero_target_retirements": 600,
+  "prefix_and_suffix_byte_identical": true,
+  "all_classical_record_fields_identical": true,
+  "square_parity_projection_CX": 7,
+  "square_begin": 456,
+  "transfer_return_cases": 8,
+  "omitted_CX_mutants_rejected": 6,
+  "expanded_u64le_sha256": "fae7e76ed9556f5657ef7ceda8426629bcd01d6258f160ec78e27fc39d67cbb9",
+  "scope": "Conditional replacement of the published baseline interface: clean norm slot at squarer entry; exact magnitude parity supplied; middle has the baseline norm-restoration contract. Arbitrary middle record phase/outcome dependence is preserved under rolling wire renaming. This is not a new all-coordinate/all-accumulator theorem for the baseline. Fresh task-level verification is separately bound.",
+  "independence": "Reuses upstream source emitter, not Simulator or the author allocation-log canonicalizer."
+}

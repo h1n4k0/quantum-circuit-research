@@ -1,0 +1,266 @@
+{
+  "verdict": "OK",
+  "fail": null,
+  "metrics": {
+    "toffoli": 1273.0,
+    "clifford": 14889.0,
+    "qubits": 115,
+    "outcomes": 8902,
+    "bits": 0,
+    "ops": 33173,
+    "shots": 8702,
+    "tq_cost": 146395
+  },
+  "counters": {
+    "wrong_output_shots": 0,
+    "wrong_sign_shots": 0,
+    "dirty_qubits": 0,
+    "failed_shots": 0
+  },
+  "h_ops": "b6041c74cdbee72641967a11fb54318d4776204c84785942133f6e6698c64eea",
+  "timing": {
+    "total_s": 0.05499124526977539
+  },
+  "circuit_meta": {
+    "peak_qubits": 115,
+    "peak_phase": "lookup/oct0",
+    "total_emitted_toffoli": 1273,
+    "total_emitted_clifford": 14889,
+    "phases": [
+      {
+        "name": "init",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 54
+      },
+      {
+        "name": "lookup/setup",
+        "toffoli": 11,
+        "clifford": 0,
+        "peak": 65
+      },
+      {
+        "name": "lookup/oct0",
+        "toffoli": 119,
+        "clifford": 3599,
+        "peak": 115
+      },
+      {
+        "name": "lookup/oct1",
+        "toffoli": 85,
+        "clifford": 2458,
+        "peak": 115
+      },
+      {
+        "name": "lookup/oct2",
+        "toffoli": 52,
+        "clifford": 1511,
+        "peak": 113
+      },
+      {
+        "name": "lookup/oct3",
+        "toffoli": 46,
+        "clifford": 1206,
+        "peak": 111
+      },
+      {
+        "name": "lookup/oct4",
+        "toffoli": 30,
+        "clifford": 880,
+        "peak": 110
+      },
+      {
+        "name": "rotate/s1",
+        "toffoli": 14,
+        "clifford": 28,
+        "peak": 104
+      },
+      {
+        "name": "rotate/s2",
+        "toffoli": 14,
+        "clifford": 28,
+        "peak": 104
+      },
+      {
+        "name": "rotate/s4",
+        "toffoli": 14,
+        "clifford": 28,
+        "peak": 104
+      },
+      {
+        "name": "c0add/add",
+        "toffoli": 41,
+        "clifford": 155,
+        "peak": 115
+      },
+      {
+        "name": "c0add/c0erase",
+        "toffoli": 0,
+        "clifford": 52,
+        "peak": 104
+      },
+      {
+        "name": "vcompute/setup",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 82
+      },
+      {
+        "name": "vcompute/s2",
+        "toffoli": 41,
+        "clifford": 180,
+        "peak": 112
+      },
+      {
+        "name": "vcompute/s1",
+        "toffoli": 38,
+        "clifford": 206,
+        "peak": 110
+      },
+      {
+        "name": "vcompute/s0",
+        "toffoli": 34,
+        "clifford": 184,
+        "peak": 108
+      },
+      {
+        "name": "vcompute/close",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 82
+      },
+      {
+        "name": "product/setup",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 82
+      },
+      {
+        "name": "product/t0",
+        "toffoli": 48,
+        "clifford": 227,
+        "peak": 115
+      },
+      {
+        "name": "product/t1",
+        "toffoli": 49,
+        "clifford": 234,
+        "peak": 115
+      },
+      {
+        "name": "product/t2",
+        "toffoli": 55,
+        "clifford": 242,
+        "peak": 115
+      },
+      {
+        "name": "product/t3",
+        "toffoli": 61,
+        "clifford": 250,
+        "peak": 115
+      },
+      {
+        "name": "product/t4",
+        "toffoli": 62,
+        "clifford": 253,
+        "peak": 115
+      },
+      {
+        "name": "product/t5",
+        "toffoli": 68,
+        "clifford": 261,
+        "peak": 115
+      },
+      {
+        "name": "product/t6",
+        "toffoli": 74,
+        "clifford": 206,
+        "peak": 115
+      },
+      {
+        "name": "product/close",
+        "toffoli": 0,
+        "clifford": 0,
+        "peak": 82
+      },
+      {
+        "name": "comp",
+        "toffoli": 25,
+        "clifford": 161,
+        "peak": 107
+      },
+      {
+        "name": "vuncompute/s0",
+        "toffoli": 34,
+        "clifford": 184,
+        "peak": 108
+      },
+      {
+        "name": "vuncompute/s1",
+        "toffoli": 38,
+        "clifford": 206,
+        "peak": 110
+      },
+      {
+        "name": "vuncompute/s2",
+        "toffoli": 41,
+        "clifford": 184,
+        "peak": 112
+      },
+      {
+        "name": "unrotate/s4",
+        "toffoli": 14,
+        "clifford": 28,
+        "peak": 78
+      },
+      {
+        "name": "unrotate/s2",
+        "toffoli": 14,
+        "clifford": 28,
+        "peak": 78
+      },
+      {
+        "name": "unrotate/s1",
+        "toffoli": 14,
+        "clifford": 28,
+        "peak": 78
+      },
+      {
+        "name": "unrotate/werase",
+        "toffoli": 0,
+        "clifford": 32,
+        "peak": 78
+      },
+      {
+        "name": "unrotate/sherase",
+        "toffoli": 0,
+        "clifford": 6,
+        "peak": 62
+      },
+      {
+        "name": "unrotate/g2erase",
+        "toffoli": 0,
+        "clifford": 10,
+        "peak": 59
+      },
+      {
+        "name": "fixup/monomials",
+        "toffoli": 42,
+        "clifford": 0,
+        "peak": 96
+      },
+      {
+        "name": "fixup/walk",
+        "toffoli": 95,
+        "clifford": 1708,
+        "peak": 102
+      },
+      {
+        "name": "fixup/unmonomials",
+        "toffoli": 0,
+        "clifford": 126,
+        "peak": 96
+      }
+    ]
+  }
+}

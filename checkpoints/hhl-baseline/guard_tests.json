@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "package_descendant",
+      "rejected": true,
+      "output_not_created": true
+    },
+    {
+      "case": "manifest_ancestor_sibling",
+      "rejected": true,
+      "output_not_created": true
+    },
+    {
+      "case": "existing",
+      "rejected": true,
+      "output_not_created": false
+    }
+  ],
+  "scientific_reports_unchanged": true
+}
