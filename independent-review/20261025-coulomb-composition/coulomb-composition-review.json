@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "reviewed_package_manifest_sha256": "aa7c6d1cdb089d87bd321ca2bcfe8cdb4a69a6c19f5dc5035affb5b125bf1580",
+  "candidate_sha256": "e3d39c6bbfa8b6a9b45cf082dcc8cac1f0139d4ffbb60387bf1e84125d087b5b",
+  "reviewer_script_sha256": "0072ef86f6f02ded6a9ca5e8e6e5ddd0ada0a9b79d0fe424a6ac6238fd147466",
+  "actual_expanded_ops_u64le_sha256": "b5f4a92edf5e7179101dc0fd3336ab69fcdb30eb454ab18450f2c2a1366db787",
+  "independent_emitted_primitive_census": {
+    "kinds": {
+      "0": 262,
+      "6": 1097,
+      "3": 5082,
+      "9": 697,
+      "4": 778,
+      "8": 735,
+      "10": 2498,
+      "1": 23
+    },
+    "toffoli": 1097,
+    "benchmark_clifford": 7292,
+    "expanded_operations": 11172
+  },
+  "independent_liveness_census": {
+    "peak": 141,
+    "allocation_events": 808,
+    "final_live_qubits": 73,
+    "only_persistent_io_live_at_end": true
+  },
+  "replayed_report_sha256": {
+    "summary.json": "0552db9b1081c352d5776d83126b5ef1d21eb9a69f84a20a4aedc4d63e0d3f05",
+    "strict.json": "681a84331d1d146d6ddd37f5d11ccc73c94f989ac5c88a8034ea5043308190d2",
+    "lookup.json": "08b563fb0e7350dc7f73be22b8d19bc8f9e1e6ff820b6e4016e15647de9c46b2",
+    "parity.json": "0f077c5fce4626170a82f8f65830ef96635a467fd30baf9437f606888d94abfd",
+    "composed_official/report.json": "620cf783f796b811f73ad449f7c3b59f065769b06f84a544f9373be677772595"
+  },
+  "review_findings": [
+    "Deterministic constructor reproduces the exact combined source from pinned surviving sources.",
+    "Actual prefix and suffix match partial-cache source; the middle is alpha-equivalent including allocation lifetimes and classical outcome operands.",
+    "Parity borrow/return are phase-free CX bridges under the stated norm-parity and baseline-restoration preconditions.",
+    "All other magnitude/sign wires needed to return the alias are excluded from middle use.",
+    "Fresh official tests, strict bounded witness tests, and complete lookup-interface tests passed.",
+    "Standalone construction output guard was strengthened after review; no scientific source changed."
+  ],
+  "limitations": "Independent read, resource census and fresh invocation; not an independent whole-circuit simulator. Strict gate evidence covers 837822 selected coordinate/accumulator cases, not the full task domain. Component transfer remains conditional on the baseline correctness/restoration contract. No hardware/global-optimum claim."
+}

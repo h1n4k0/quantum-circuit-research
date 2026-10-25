@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "cases": {
+    "existing": {
+      "rejected": true,
+      "reason": "Output must be new",
+      "no_path_created": true
+    },
+    "repository": {
+      "rejected": true,
+      "reason": "Output within frozen inputs",
+      "no_path_created": true
+    },
+    "upstream": {
+      "rejected": true,
+      "reason": "Output within frozen inputs",
+      "no_path_created": true
+    },
+    "package": {
+      "rejected": true,
+      "reason": "Output within frozen inputs",
+      "no_path_created": true
+    },
+    "manifested": {
+      "rejected": true,
+      "reason": "Output in manifested artifact",
+      "no_path_created": true
+    }
+  },
+  "allowed_new_output_not_created": true,
+  "scope": "Direct validation function checks before any scientific invocation; not a race-free untrusted-filesystem proof."
+}

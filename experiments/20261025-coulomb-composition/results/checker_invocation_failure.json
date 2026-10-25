@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_INVOCATION",
+  "stage": "First parity checker invocation",
+  "reason": "The frozen partial-cache candidate was passed directly, outside a staged task tree. The upstream task contract loader correctly rejected the missing grader ancestor before either candidate comparison. The runner now stages exact baseline bytes with the pinned task contract.",
+  "scientific_verdict": null
+}

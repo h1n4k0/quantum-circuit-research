@@ -1,0 +1,99 @@
+{
+  "expected": {
+    "toffoli": 1097,
+    "qubits": 141
+  },
+  "registers": [
+    {
+      "name": "ri",
+      "label": "$r_i$ (3\u00d78)",
+      "regs": 3
+    },
+    {
+      "name": "rj",
+      "label": "$r_j$ (3\u00d78)",
+      "regs": 3
+    },
+    {
+      "name": "k",
+      "label": "$k$ (25)"
+    }
+  ],
+  "phase_labels": {
+    "init": "Init",
+    "diffs": "Diffs",
+    "squarer": "Squarer",
+    "normalize": "Normalize",
+    "qrom": "QROM",
+    "multiply": "Multiply",
+    "subtract": "Subtract",
+    "patch": "Patch",
+    "shift": "Shift",
+    "accumulate": "Accumulate",
+    "un-shift": "Shift\u207b\u00b9",
+    "un-patch": "Patch\u207b\u00b9",
+    "un-subtract": "Subtract\u207b\u00b9",
+    "un-multiply": "Multiply\u207b\u00b9",
+    "un-qrom": "QROM\u207b\u00b9",
+    "un-normalize": "Normalize\u207b\u00b9",
+    "un-squarer": "Squarer\u207b\u00b9",
+    "un-diffs": "Diffs\u207b\u00b9",
+    "norm-parity": "Norm parity transfer"
+  },
+  "roles": [
+    {
+      "set": "ri",
+      "name": "$r_i$ (input)"
+    },
+    {
+      "set": "rj",
+      "name": "$r_j$ (input)"
+    },
+    {
+      "set": "k",
+      "name": "$k$ (accumulator)"
+    },
+    {
+      "set": "sign",
+      "name": "Axis signs"
+    },
+    {
+      "set": "n2",
+      "name": "$n^2$ word"
+    },
+    {
+      "set": "exp-flag",
+      "name": "Exponent flags"
+    },
+    {
+      "set": "slope",
+      "name": "Slope word"
+    },
+    {
+      "set": "intercept",
+      "name": "Intercept word"
+    },
+    {
+      "set": "qrom-root",
+      "name": "QROM root parity",
+      "muted": true
+    },
+    {
+      "set": "product",
+      "name": "Product rows"
+    },
+    {
+      "set": "borrow",
+      "name": "Borrow wire"
+    },
+    {
+      "set": "widen",
+      "name": "Intercept widen headroom"
+    },
+    {
+      "transient": true,
+      "name": "AND scratch",
+      "muted": true
+    }
+  ]
+}
