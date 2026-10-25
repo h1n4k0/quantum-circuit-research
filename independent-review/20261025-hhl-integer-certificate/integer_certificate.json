@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "domain_values": 2031616,
+  "max_real_error_numerator_lower": 114661270223,
+  "max_real_error_numerator_upper": 114661270226,
+  "real_error_denominator_output_units": 268435456,
+  "max_interval_width_numerator": 5,
+  "rounded_ideal_ambiguities": 0,
+  "max_rounded_real_integer_error": 427,
+  "worst_upper_bound_X": 1886892,
+  "worst_addend": 74590256,
+  "worst_asin_lower_Q60": 20022784043786959,
+  "worst_asin_upper_Q60": 20022784043786962,
+  "curvature_window_min": 344,
+  "curvature_window_max": 130768
+}

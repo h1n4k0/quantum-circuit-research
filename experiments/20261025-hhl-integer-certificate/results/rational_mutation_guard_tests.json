@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "exact_rational_spot_checks": 1205,
+  "spot_scope": "Every leaf endpoint, global endpoints, worst witness, 512 seeded draws with deduplication",
+  "mutations": {
+    "collapsed_interval_rejected": true,
+    "bad_addend_rejected": true,
+    "modified_datapath_config_rejected": true
+  },
+  "guards": {
+    "existing_output_rejected": true,
+    "package_output_rejected": true,
+    "candidate_output_rejected": true,
+    "modified_source_rejected": true,
+    "self_package_output_rejected": true,
+    "self_candidate_output_rejected": true,
+    "self_MANIFEST.json_ancestor_rejected": true,
+    "self_PUBLICATION_MANIFEST.json_ancestor_rejected": true
+  },
+  "records_sha256": "ce5838584fc1ae454acd54c9e4e2d5df69f91c2018b7ac0efe7cdfcc647a37e8",
+  "full_domain_undefined_behavior_sanitizer": {
+    "status": "PASS",
+    "records_byte_identical": true,
+    "domain_values": 2031616
+  },
+  "verifier_sha256": "7f5a023b2d7e8e19a37ecbecaceabf246dd33a4377a1b4f5ae9e14e831d685c2",
+  "limits": "Spot checks independently verify fixed-point bounds, not the entire circuit or all-input arithmetic semantics."
+}

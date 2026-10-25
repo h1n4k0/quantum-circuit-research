@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "source_sha256": "d854ac76c46919b83568c307767049b241c19655b84330ba1cfd2b713df09f37",
+  "constants_sha256": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+  "method": "32-term positive arcsin series, Q60 integer directed bounds, rigorous global tail",
+  "integer_certificate": {
+    "status": "PASS",
+    "domain_values": 2031616,
+    "max_real_error_numerator_lower": 114661270223,
+    "max_real_error_numerator_upper": 114661270226,
+    "real_error_denominator_output_units": 268435456,
+    "max_interval_width_numerator": 5,
+    "rounded_ideal_ambiguities": 0,
+    "max_rounded_real_integer_error": 427,
+    "worst_upper_bound_X": 1886892,
+    "worst_addend": 74590256,
+    "worst_asin_lower_Q60": 20022784043786959,
+    "worst_asin_upper_Q60": 20022784043786962,
+    "curvature_window_min": 344,
+    "curvature_window_max": 130768
+  },
+  "max_pinned_f64_integer_error": 427,
+  "rounded_real_vs_host_f64_disagreements": [],
+  "upstream_model_comparison": {
+    "all_values_equal": true,
+    "values": 2031616,
+    "checks_sha256": "5f8823b4fbd3d9b6168366393517b516d501a24e3373ececa67c65aa9f8f9b8e",
+    "scope": "Comparison only: the certificate does not import this model or its simulator."
+  },
+  "records_layout": "For X=65536..2097151, uint64 little-endian addend, asin_lower_Q60, asin_upper_Q60",
+  "records_sha256": "ce5838584fc1ae454acd54c9e4e2d5df69f91c2018b7ac0efe7cdfcc647a37e8",
+  "generated_header_sha256": "4a795dff36316c66af0bb86fd72d3dd96faf2f8112f9467e654211256e915425",
+  "input_preservation": {
+    "frozen_candidate_pins_unchanged": true,
+    "complete_package_manifest_unchanged": true,
+    "upstream_tracked_files_unchanged": true
+  },
+  "verifier_sha256": "1695774d8959a6d88e27ac0b1b8bef16b5b2196853f5c20717104769d758f1a6",
+  "runner_sha256": "c429a971f2e91a83d3ed4824f5513eb8654caab260e8c88471a951f725e04c93",
+  "environment": {
+    "python": "3.12.14",
+    "machine": "x86_64",
+    "compiler": "cc (Debian 14.2.0-19) 14.2.0"
+  },
+  "scope": "Full-domain numerical datapath certificate only, not a new gate-level all-accumulator theorem. Circuit linkage is the pinned source and prior/fresh sampled gate evidence. No hardware or optimum claim.",
+  "seconds": 3.548710397997638
+}
