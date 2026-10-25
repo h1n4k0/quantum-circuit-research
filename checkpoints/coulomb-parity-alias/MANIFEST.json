@@ -1,0 +1,22 @@
+{
+  "checkpoint": "coulomb-norm-parity-alias-001",
+  "files": {
+    "README.md": "07965aae477676e4781eddf78ff423da1cd5f6732639683f761790e30cbc44e1",
+    "UPSTREAM_LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "results/independent.json": "88c6de9c56614a5e17d08ed120f5e58d6b9326e49e6263968fea94db5eb7aeea",
+    "results/interface.json": "35d62a61001bedbd996977e9ad1d2705d85dff76170cfc918d6798b55bac50ed",
+    "results/official.json": "5dcee4dccf46d4312f8f1d1266be0609fdf2f4dfe908e3396898b8b0bdd37df8",
+    "run.py": "bbb346d729c65e7b85ba90a2c4d460755e9fb5d36f05cf8a09ba251482e39dcf",
+    "task/circuits/baseline/circuit.py": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+    "task/circuits/baseline/meta.json": "4421b997ad3041575e2f440883d5ed43c4b4881548a18853c70fb0714d16af68",
+    "task/circuits/norm_parity_alias_v1/circuit.ops.xz": "89b94fee62d00a539114cceca4fbfacfbe3d1f2272714a950070385fb13db4a5",
+    "task/circuits/norm_parity_alias_v1/circuit.py": "bdbb62ac7537393aec212cb657aceeacdd5d15be3ebec9a5e30a456954cdccb4",
+    "task/circuits/norm_parity_alias_v1/meta.json": "5d5df3a8f23598646d874acd5d24c5049a9e9668d5046abaf1eaab4678c03d89",
+    "task/contract.json": "a0e896b47c8747245c614ae7e06dcebe81b776caf88e841e5d4c7b31484a2056",
+    "task/grader.py": "5019aca1214c151cd61c221294955219b2019b5665528693a139d6a69bb10c59",
+    "task/reference.py": "08d42648cdb941fb469bba27867642586b347581e3c646ddb5015995e4570554",
+    "verification/audit_coulomb_candidate.py": "1bb58d8d68d43f3ce1469736585fd73da140fe626563a70c98ee7a8f9bee18f1",
+    "verification/audit_hhl_candidate.py": "123dd9dcb0454f41ffad42a6128fdedc6bc573b0f5c62fbc33a250a0f012336c",
+    "verification/certify_norm_parity_alias_v2.py": "4071f51ca7346ca6e288c309e023d35b7d1afa5c065b8bba51f32db0ce3d3e4d"
+  }
+}

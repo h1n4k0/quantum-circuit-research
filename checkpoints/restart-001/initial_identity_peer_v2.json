@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Original 27-file byte identity, Git tree, two manifests, unchanged identity-runner replay; no fresh scientific execution.",
+  "source_commit": "b6e0080c1eb45e2c3c62602527bb6f325c096342",
+  "git_tree": "d1636a5c4025f8afc6efe575c73cb8cac3ec7d93",
+  "file_count": 27,
+  "publication_manifest_entries": 26,
+  "nested_manifest_entries": 19,
+  "independent_methods": [
+    "sha256sum and hashlib for published entries",
+    "Git hash-object for all 27 blobs",
+    "Git write-tree on an isolated exact 27-file tree"
+  ],
+  "review": [
+    "Original allowlist deliberately excludes subsequent checkpoints.",
+    "Original manifest and payload mutations are caught by pinned bytes.",
+    "No candidate imports; XZ decompression is integrity evidence, not circuit verification.",
+    "Output must be new and outside the inspected checkout."
+  ],
+  "checkpoint_sha256": {
+    "README.md": "674736519464ee5dbb1257b4f041d6d63ae834781fbdb518f575d87cb051a385",
+    "initial_identity.json": "432d5b212720c0508fff85f539330f1a3485ac17f9d47948752bf7a3dcc3b997",
+    "result.json": "e8a53fc78d3a5bac7cf05351f7c185524dbe604d1875b5b618408d6a827112e3",
+    "verify_initial_identity.py": "64676a3cb361f9df70309d08571fa3c6f4dd392b99c249f12d3f1f6f8adb79f1"
+  },
+  "verifier_sha256": "2931bf4112ca355d15d23f0662f1a05493483d897b613cb5514883689e98373b",
+  "fresh_runner_result_sha256": "e8a53fc78d3a5bac7cf05351f7c185524dbe604d1875b5b618408d6a827112e3",
+  "fresh_runner_equals_recorded": true,
+  "ignored_generated_bytecode_not_in_original_allowlist": [
+    "initial-001/verification/__pycache__/audit_hhl_candidate.cpython-312.pyc"
+  ]
+}

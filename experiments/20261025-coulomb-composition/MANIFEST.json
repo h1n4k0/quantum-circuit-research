@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "sha256": {
+    "README.md": "550ff0bf8f6dd55076fea08ffdd7c953ac0fe6d3f2dee4265f2d4bddef86550e",
+    "UPSTREAM_LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "construction/compose.py": "a6d55471c0a66d11c2d38a0ac508fef474dc4e1f3912b88ad8fbe4a50340f4bd",
+    "reproduce.py": "9a2c3f1640908ee27625cfe695e94e46b5b46c614aede9ab64b273ab49213e6a",
+    "results/checker_invocation_failure.json": "f65c1f3f9ddda54bca60d2b2e0f1ba387d2f90e18cb27b8c667b5a9452308c07",
+    "results/construction_preflight_failure.json": "048650d072179022d0ea572872a87695849c64d3e9cf2f85dff62e908004a9dc",
+    "results/constructor_guards.json": "52c786a28643ad0700941f480fadb8ec39058e5d42edbcca34cc2cf1144284aa",
+    "results/lookup_component.json": "08b563fb0e7350dc7f73be22b8d19bc8f9e1e6ff820b6e4016e15647de9c46b2",
+    "results/official_report.json": "3450730f3ef8093d49911dc4238c45cc69a6672f33faad5b12ecbb24c8af9d30",
+    "results/official_tq_cost.json": "0750ea4ae63a9bf6db4757b4a9c81d78c27e9e4f8cd4778ec3f839c0eac36eb5",
+    "results/output_guards.json": "65c1856bcf3f32a0aaa09ba8d187b13505b157d42c8c9a078b60d3b7dbf3227b",
+    "results/package_replay_001.json": "fe3f075011438e0602e55efcfb2c5141167547dd2de4ff6f0e5f4c150e0d62c3",
+    "results/parity_alias_fresh_official.json": "3b8f048f03a952484ecd1169ee76e63f07ef033fe7bfe46d43a7e5e6039a13cd",
+    "results/parity_composition.json": "0f077c5fce4626170a82f8f65830ef96635a467fd30baf9437f606888d94abfd",
+    "results/partial_cache_fresh_official.json": "3b6ae77b085c78b8bf43ece0e2489e3052e8895751e3e96bd9d92d7a44b2a18f",
+    "results/strict.json": "1686db7d71b1b2b4c13d62bebc1ed8be4469c308c3a23607a534b1ed233ea9ce",
+    "task/circuits/composed/circuit.ops.xz": "f843bc5033f3d064bfca5696d056ac3246fe952d4deeba757ec9ba07f6c97d26",
+    "task/circuits/composed/circuit.py": "e3d39c6bbfa8b6a9b45cf082dcc8cac1f0139d4ffbb60387bf1e84125d087b5b",
+    "task/circuits/composed/meta.json": "86b775b07eb2b5174969a5dd3933fd6e2e5f636fcb8f7127d4da3f0d8de04a95",
+    "task/contract.json": "a0e896b47c8747245c614ae7e06dcebe81b776caf88e841e5d4c7b31484a2056",
+    "task/grader.py": "5019aca1214c151cd61c221294955219b2019b5665528693a139d6a69bb10c59",
+    "task/reference.py": "08d42648cdb941fb469bba27867642586b347581e3c646ddb5015995e4570554",
+    "verification/audit_coulomb_candidate.py": "1bb58d8d68d43f3ce1469736585fd73da140fe626563a70c98ee7a8f9bee18f1",
+    "verification/audit_hhl_candidate.py": "123dd9dcb0454f41ffad42a6128fdedc6bc573b0f5c62fbc33a250a0f012336c",
+    "verification/certify_composed_parity.py": "f8812ad7de9b0df58a8d92eb2a80cc3c88574c13a2085f0bb8b39696932e3a9e",
+    "verification/certify_partial_cache_lookup.py": "cf3aa4604fa86dcb49b37c406068da0be930aa9fb79bbe0bb13edcdaa44bb715"
+  }
+}

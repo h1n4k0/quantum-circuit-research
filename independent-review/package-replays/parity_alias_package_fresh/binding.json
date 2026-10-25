@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "manifest_sha256": "8f85d06d40bc249fe08f0315c63c464ac4a2a1dee5a56d8345810b0abeb850d0",
+  "source_sha256": "bdbb62ac7537393aec212cb657aceeacdd5d15be3ebec9a5e30a456954cdccb4",
+  "emitted_sha256": "a4c98da79d3559c497bf55178e85ad8db37fc49ed5b3c5c0c1af3758e1d98517",
+  "official_report_sha256": "5fd7e8d28137539a9b69ce424a1fd6156cbbcaafef5e2faad15973d2f4dc3889",
+  "independent_report_sha256": "cf2c77ff70d0eb69bdbad6dfc7c36c2bd4951643996c586473fe3efbddd9ec14",
+  "interface_report_sha256": "35d62a61001bedbd996977e9ad1d2705d85dff76170cfc918d6798b55bac50ed",
+  "scope": "Fresh official shots, 837822 selected strict cases and exact changed-interface proof. Not a full-coordinate/all-accumulator task theorem."
+}

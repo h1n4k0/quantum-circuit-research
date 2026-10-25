@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "selected_inputs": 819,
+  "all_leaf_endpoints": true,
+  "deterministic_random_draws": 128,
+  "method": "Independent direct 48-term Fraction sum with exact geometric remainder bound, compared by rational inequalities to recorded Q60 intervals.",
+  "shifted_interval_mutants_rejected": 2,
+  "records_sha256": "ce5838584fc1ae454acd54c9e4e2d5df69f91c2018b7ac0efe7cdfcc647a37e8",
+  "constants_sha256": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+  "checker_sha256": "467888a92503f2ca0f9903fc72ab02889fa246fbbb867840d28629a752644fb5",
+  "scope": "Independent selected-input check of interval oracle only; not a second exhaustive census or circuit proof."
+}

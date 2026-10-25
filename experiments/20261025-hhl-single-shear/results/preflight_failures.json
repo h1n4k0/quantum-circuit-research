@@ -1,0 +1,16 @@
+{
+  "status": "EXPECTED_GUARD_AND_INVOCATION_FAILURES_PRESERVED",
+  "failures": [
+    {
+      "stage": "initial transfer invocation",
+      "cause": "Output inside checker package rejected before writing.",
+      "science_changed": false
+    },
+    {
+      "stage": "second transfer invocation",
+      "cause": "Original candidate-only baseline directory has no grader ancestor; the loader refused it.",
+      "resolution": "Use byte-identical baseline source staged under a complete copied task.",
+      "science_changed": false
+    }
+  ]
+}

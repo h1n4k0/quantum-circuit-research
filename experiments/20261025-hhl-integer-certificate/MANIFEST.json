@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "README.md": "887a3c034648aabbd8eba2074a6c545e972cf727db3769aebe0c1adc34f971e5",
+    "UPSTREAM_LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "reproduce.py": "c429a971f2e91a83d3ed4824f5513eb8654caab260e8c88471a951f725e04c93",
+    "results/baseline_replay_summary.json": "5f32ecb2d58c66a6ca5ea03ee5728cbae2c249d69e1e1bbeb4cd3eaab51ff753",
+    "results/circuit_official.json": "8c9262a9920e95b9c7fa53f422c5175624cdfb7d9932d22fb594d17bf64a72bf",
+    "results/circuit_replay_summary.json": "bfba1024266b91888086c867070da5825437b25b2b85340accbd91426d19f7ba",
+    "results/circuit_stored.json": "d2833c1d672df4b46ce836d828f3cc469fd64724f6390ac7913e9b9412c55117",
+    "results/circuit_strict.json": "1a35c0b9db083d1bd173daa8ecf93f6026083b967c34728ad540c7738174974b",
+    "results/circuit_suffix.json": "9dac8ab022edfd0e9e97e9e420fc2731098aa7725c1fdddad157ec22ecc66a94",
+    "results/numeric_standalone.json": "64530290b289bbf1e6433d191ae45fc19de17a73bc71cdff5fc3ffdc2641bc23",
+    "results/numeric_with_model_comparison.json": "1f57fcfb0b6e0e59802fc8deb52d02c4e03b7fe58d834fdea99939223ff013a2",
+    "results/rational_mutation_guard_tests.json": "4cae4bbdf526161945a0337d17183bb5e6165705f6dd30cc40aa245f25ee07bb",
+    "verification/certify.c": "1695774d8959a6d88e27ac0b1b8bef16b5b2196853f5c20717104769d758f1a6",
+    "verification/test_certificate.py": "7f5a023b2d7e8e19a37ecbecaceabf246dd33a4377a1b4f5ae9e14e831d685c2"
+  }
+}

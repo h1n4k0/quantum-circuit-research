@@ -1,0 +1,19 @@
+{
+  "checkpoint": "coulomb-baseline-replay-002",
+  "files": {
+    "README.md": "bdbe3a5624ff3c9f146240e2138778b8be6b57c3241d9a06eb2c83cdf8e7abdf",
+    "UPSTREAM_LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bind_baseline_reproduction.py": "1201527638a71f197ef29fe2cf643ccad36ed50e61315e73f4d67ca946a865f0",
+    "results/baseline_independent.json": "8b253d1817535b598e032f533a9a01c6b056ac9ba1c5947188913e8801238c92",
+    "results/baseline_official/report.json": "59540453bf33b83e1af381d526b739c44a4a53f5504fc7cfed20876a9f83cba7",
+    "results/baseline_reproduction_binding.json": "40ae8b97b80917f040109f2547da2d930161786432b003a8a13e2fef24a0f79c",
+    "task/circuits/baseline/circuit.ops.xz": "fd48ae0f75057afaadac8867ffcc27f840b4227d5515c2e467861d0ea231ce25",
+    "task/circuits/baseline/circuit.py": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+    "task/circuits/baseline/meta.json": "4421b997ad3041575e2f440883d5ed43c4b4881548a18853c70fb0714d16af68",
+    "task/contract.json": "a0e896b47c8747245c614ae7e06dcebe81b776caf88e841e5d4c7b31484a2056",
+    "task/grader.py": "5019aca1214c151cd61c221294955219b2019b5665528693a139d6a69bb10c59",
+    "task/reference.py": "08d42648cdb941fb469bba27867642586b347581e3c646ddb5015995e4570554",
+    "verification/audit_coulomb_candidate.py": "1bb58d8d68d43f3ce1469736585fd73da140fe626563a70c98ee7a8f9bee18f1",
+    "verification/audit_hhl_candidate.py": "123dd9dcb0454f41ffad42a6128fdedc6bc573b0f5c62fbc33a250a0f012336c"
+  }
+}

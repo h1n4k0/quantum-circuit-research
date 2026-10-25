@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "metrics": {
+    "composed": {
+      "source_sha256": "e3d39c6bbfa8b6a9b45cf082dcc8cac1f0139d4ffbb60387bf1e84125d087b5b",
+      "raw_sha256": "b8c6cdb00b03f0c22c657164bf9e19a5f06ed34ab42e7ea6a42f3a95c11f4792",
+      "toffoli": 1097.0,
+      "clifford": 7292.0,
+      "qubits": 141,
+      "outcomes": 1946,
+      "bits": 0,
+      "ops": 11172,
+      "shots": 9017,
+      "tq_cost": 154677
+    },
+    "partial_cache": {
+      "source_sha256": "1379ef3398d3ac735bee2d4c4c4c045b77cce0500db506d91163a6fbfcc11cb7",
+      "raw_sha256": "e4dbbbc9cc2db8f76afb4c8713efd04ec9ee351b154e77a969ee1034d03f65a9",
+      "toffoli": 1097.0,
+      "clifford": 7285.0,
+      "qubits": 142,
+      "outcomes": 1946,
+      "bits": 0,
+      "ops": 11165,
+      "shots": 9019,
+      "tq_cost": 155774
+    },
+    "parity_alias": {
+      "source_sha256": "bdbb62ac7537393aec212cb657aceeacdd5d15be3ebec9a5e30a456954cdccb4",
+      "raw_sha256": "a4c98da79d3559c497bf55178e85ad8db37fc49ed5b3c5c0c1af3758e1d98517",
+      "toffoli": 1110.0,
+      "clifford": 6723.0,
+      "qubits": 141,
+      "outcomes": 2039,
+      "bits": 0,
+      "ops": 10616,
+      "shots": 9015,
+      "tq_cost": 156510
+    }
+  },
+  "construction_matches_exact_source": true,
+  "frozen_package_unchanged": true,
+  "whole_circuit_scope": {
+    "exact_oracle_domain_values": 195075,
+    "attainable_squared_distances": 139637,
+    "gate_level_cases": 837822,
+    "coordinate_witnesses": "one magnitude triple per attainable squared distance, both signs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "measurement_outcomes": "all via affine per-draw ledger on tested inputs",
+    "not_proved": "Not all coordinate pairs or accumulator values; circuit semantics are upstream strict Simulator, independently selected tests and exact integer oracle."
+  },
+  "component_scope": "Parity transfer and allocation-aware middle equivalence to partial-cache source; exact dirty-output lookup interface. Not all-coordinate/all-accumulator whole-circuit proof.",
+  "wall_seconds": 13.725600283010863
+}

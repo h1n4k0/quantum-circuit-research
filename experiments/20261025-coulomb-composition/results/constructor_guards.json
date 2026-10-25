@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cases": {
+    "repository": {
+      "rejected": true,
+      "exit_code": 1,
+      "not_created": true
+    },
+    "package": {
+      "rejected": true,
+      "exit_code": 1,
+      "not_created": true
+    }
+  },
+  "external_roundtrip_bytes_equal": true
+}

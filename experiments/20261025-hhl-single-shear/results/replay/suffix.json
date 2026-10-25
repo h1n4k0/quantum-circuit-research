@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source_files": {
+    "circuit.py": "fc37886611a9245bab10d454ac4a07d538a534c28b3bdcbceeefda9211c3b1e7",
+    "constants.json": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+    "phase_plan.json": "98c66f71bba060f5c2ebdd13948b3ab2a0283d45512c544f597426dea4a9fc91"
+  },
+  "verifier_sha256": "79ec160565b992a8a4e49754375b7712f6746d3fac3c4612794d23fb7ef4b69b",
+  "actual_expanded_ops_sha256": "388899b42b73fb35bee464bc6009abaa75829f1b7cb01473f6ff3eb62a6539e4",
+  "capture_equals_uninstrumented": true,
+  "canonical_ops_checked": 28588,
+  "suffix_start": 15031,
+  "suffix_ops": 13557,
+  "valid_selector_classes": 7936,
+  "initial_independent_coefficient_outcomes": 50,
+  "additional_fresh_draws": 69,
+  "all_draw_assignments": true,
+  "workspace_zero_entry": "each non-interface wire never touched or last touched by unconditional R/HMR",
+  "lower8_X_and_all_K": "structurally untouched by suffix",
+  "mutation_missing_CZ_rejected": true,
+  "scope": "Conditional component certificate: incoming phase is exactly the 50 coefficient measurement debts and workspace is clean. No independent proof of arithmetic-prefix correctness or all accumulators is claimed. Invalid selector classes 0..255 are excluded."
+}

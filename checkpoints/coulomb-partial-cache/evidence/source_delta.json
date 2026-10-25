@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "baseline_sha256": "ce40b21cfc219816724dcf0ea47c03e0add6f685d6accd5871ff3685fe596b3f",
+  "candidate_sha256": "1379ef3398d3ac735bee2d4c4c4c045b77cce0500db506d91163a6fbfcc11cb7",
+  "scope": "Executable AST outside the forward-lookup replacement and its two new top-level helper/plan declarations is identical. Numerical fitting, arithmetic and phase erase are unchanged. This is not the replacement semantic proof."
+}

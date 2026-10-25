@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "task": "hhl",
+  "source_sha256": "d854ac76c46919b83568c307767049b241c19655b84330ba1cfd2b713df09f37",
+  "raw_sha256": "af7fde268a5415124463b82a982af34faeb8cde9db744fdaa7bf05b630698559",
+  "raw_bytes": 289775,
+  "source_emission_byte_identical": true,
+  "actual_flat_records": 28659,
+  "metrics": {
+    "toffoli": 1206.0,
+    "clifford": 13601.0,
+    "qubits": 115,
+    "outcomes": 7363,
+    "bits": 0,
+    "ops": 28659,
+    "shots": 8724,
+    "tq_cost": 138690
+  },
+  "TQ": 138690.0,
+  "scope": {
+    "pre_fixup_executable_ast_identical": true,
+    "constants_identical": true,
+    "full_arithmetic_domain_values": 2031616,
+    "gate_level_cases": 71424,
+    "distinct_decoder_input_classes": 7936,
+    "measurement_outcomes": "all, via affine per-draw ledger on tested inputs",
+    "accumulators": [
+      "zero",
+      "all ones",
+      "exact output wrap seam"
+    ],
+    "not_proved": "Not an exhaustive gate-level test over all 2^33 accumulator values; simulator and arithmetic model are upstream implementations."
+  },
+  "strict_report_sha256": "cfba7ae882f88f64c4f8a8ae73f2350918e66f26166bd73e9520c0301f49b6eb",
+  "official_report_sha256": "1718a7f806c6a97e8be28ba14951e29b4ee1619c3769cb45465c034ab4d64b9d",
+  "audit_script_sha256": "123dd9dcb0454f41ffad42a6128fdedc6bc573b0f5c62fbc33a250a0f012336c",
+  "binder_sha256": "aa055efa0f54171be8afcbebf57030becbe44acc16dbc80762da7075f96dd900",
+  "limitations": "Fresh independent invocation, not an independent simulator implementation. Official cases are sampled. Strict all-outcome checking applies to the stated basis-input tests, not every coordinate/accumulator. Logical Toffoli/Q proxies do not claim hardware speed.",
+  "wall_seconds": 0.16157630600355333
+}

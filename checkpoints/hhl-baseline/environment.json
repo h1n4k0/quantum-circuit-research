@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "click": "8.4.2",
+  "compiler": "cc (local system compiler; optional upstream C kernel built with reviewed Makefile)",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "runner_sha256": "4bb9cbfa5e40f962aae72a139c26b6049a75aacc70d5646e085b9a7926b0fa84",
+  "result_provenance": "Results retained byte-for-byte from v1 fresh reproduction. V2 only hardens input/output preflight guards; no new scientific computation claimed."
+}

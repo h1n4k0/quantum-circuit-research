@@ -1,0 +1,24 @@
+{
+  "verdict": "OK",
+  "fail": null,
+  "metrics": {
+    "toffoli": 1205.0,
+    "clifford": 13601.0,
+    "qubits": 115,
+    "outcomes": 7327,
+    "bits": 0,
+    "ops": 28588,
+    "shots": 8735,
+    "tq_cost": 138575
+  },
+  "counters": {
+    "wrong_output_shots": 0,
+    "wrong_sign_shots": 0,
+    "dirty_qubits": 0,
+    "failed_shots": 0
+  },
+  "h_ops": "709a93012bbc4f43ae4ea44457f72219fafecdab9f4fe2ab626e4ca8f359f05d",
+  "timing": {
+    "total_s": 0.0545351505279541
+  }
+}

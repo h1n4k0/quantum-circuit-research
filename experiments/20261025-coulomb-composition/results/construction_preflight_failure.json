@@ -1,0 +1,7 @@
+{
+  "status": "FAILED_PREFLIGHT",
+  "stage": "Initial composition script source pin guard",
+  "reason": "The manually transcribed partial-cache SHA-256 omitted two characters. The guard rejected before candidate creation. The corrected pin was read from SHA-256 of the immutable source and matched its frozen runner.",
+  "candidate_created": false,
+  "scientific_test_run": false
+}
