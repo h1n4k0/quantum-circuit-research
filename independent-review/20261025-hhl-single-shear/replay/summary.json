@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "upstream_commit": "64b5a13aa249f1360846657392e6c66817b26d0f",
+  "source_sha256": "fc37886611a9245bab10d454ac4a07d538a534c28b3bdcbceeefda9211c3b1e7",
+  "stream_sha256": "709a93012bbc4f43ae4ea44457f72219fafecdab9f4fe2ab626e4ca8f359f05d",
+  "metrics": {
+    "candidate": {
+      "toffoli": 1205.0,
+      "clifford": 13601.0,
+      "qubits": 115,
+      "outcomes": 7327,
+      "bits": 0,
+      "ops": 28588,
+      "shots": 8735,
+      "tq_cost": 138575
+    },
+    "baseline": {
+      "toffoli": 1206.0,
+      "clifford": 13601.0,
+      "qubits": 115,
+      "outcomes": 7363,
+      "bits": 0,
+      "ops": 28659,
+      "shots": 8724,
+      "tq_cost": 138690
+    },
+    "released": {
+      "toffoli": 1348.0,
+      "clifford": 56419.0,
+      "qubits": 115,
+      "outcomes": 1040,
+      "bits": 0,
+      "ops": 58977,
+      "shots": 8741,
+      "tq_cost": 155020
+    }
+  },
+  "construction_byte_identical": true,
+  "selected_shear_plan_regenerated": true,
+  "source_and_stored_streams_equal": true,
+  "frozen_package_unchanged": true,
+  "evidence_sha256": {
+    "candidate/report.json": "f87dc7180dca9a3c86606dc7cfff954e5104fd8fad349a17646489edebf63f8e",
+    "baseline/report.json": "fb6aeb7cb23a7bc6d185069dbefa999bc42ed3844487af85466b5ac66aaa60ec",
+    "released/report.json": "3341aa2d83262ff32163209e6bff7de8dce240e923393e1094d319646098f147",
+    "stored/report.json": "f66afdc00dc930da86a63cfbab5631b68f6f453c602d74ca301c8a34cdeab813",
+    "strict.json": "85e68001345e434e7fc33543bcecbc19a378674ad926b6c73070736815d48517",
+    "suffix.json": "5d605b8cd057f20db36aea6b4a9f6720fdb0e9a3492fa95c1b332bbd459a435b",
+    "numeric/report.json": "d8b33705b069096d66cd0a63f94988dcf735968103262e93cd22784f86cf9b1e",
+    "numeric_transfer.json": "0a3328423336a0f538eba58d3650e5035e79e5b78ff44c5671b89b735824e2bd"
+  },
+  "scope": "Same arithmetic prefix and exact numerical-model bound; complete suffix component proof under incoming-phase contract; whole-circuit gate verification still limited to 71424 witness cases and sampled official shots. Logical resources only; no global optimum or hardware claim.",
+  "seconds": 5.656066131981788
+}

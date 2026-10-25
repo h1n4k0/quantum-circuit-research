@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "candidate_sha256": "fc37886611a9245bab10d454ac4a07d538a534c28b3bdcbceeefda9211c3b1e7",
+  "baseline_sha256": "d854ac76c46919b83568c307767049b241c19655b84330ba1cfd2b713df09f37",
+  "constants_sha256": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+  "numeric_report_sha256": "64530290b289bbf1e6433d191ae45fc19de17a73bc71cdff5fc3ffdc2641bc23",
+  "verifier_sha256": "eca61d83e2b9f4c506d300032f64803e2c365d388ee16e1732b92a45361c6dd5",
+  "normalized_executable_prefix_equal": true,
+  "actual_uninstrumented_emitted_prefix_equal": true,
+  "prefix_operations": 15031,
+  "prefix_u64le_sha256": "83aea3f9f8d219d7bf0d2ce0229905a1e8739a1f02522e305065982ca6ab23d4",
+  "coefficient_outcomes_and_persistent_registers_equal": true,
+  "integer_certificate": {
+    "status": "PASS",
+    "domain_values": 2031616,
+    "max_real_error_numerator_lower": 114661270223,
+    "max_real_error_numerator_upper": 114661270226,
+    "real_error_denominator_output_units": 268435456,
+    "max_interval_width_numerator": 5,
+    "rounded_ideal_ambiguities": 0,
+    "max_rounded_real_integer_error": 427,
+    "worst_upper_bound_X": 1886892,
+    "worst_addend": 74590256,
+    "worst_asin_lower_Q60": 20022784043786959,
+    "worst_asin_upper_Q60": 20022784043786962,
+    "curvature_window_min": 344,
+    "curvature_window_max": 130768
+  },
+  "scope": "Exact unchanged-prefix transfer of the full-domain numerical-model enclosure. The separate suffix checker covers all 7936 valid selector classes and all measurement outcomes under its incoming-phase contract. No new whole-circuit all-input/all-accumulator theorem."
+}

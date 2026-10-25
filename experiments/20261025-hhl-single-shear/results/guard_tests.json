@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "cases": 25,
+  "tests": [
+    {
+      "entry": "reproduce",
+      "target": "existing",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "reproduce",
+      "target": "package",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "reproduce",
+      "target": "candidate",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "reproduce",
+      "target": "MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "reproduce",
+      "target": "PUBLICATION_MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "constructor",
+      "target": "existing",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "constructor",
+      "target": "package",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "constructor",
+      "target": "candidate",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "constructor",
+      "target": "MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "constructor",
+      "target": "PUBLICATION_MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "screen",
+      "target": "existing",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "screen",
+      "target": "package",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "screen",
+      "target": "candidate",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "screen",
+      "target": "MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "screen",
+      "target": "PUBLICATION_MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "transfer",
+      "target": "existing",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "transfer",
+      "target": "package",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "transfer",
+      "target": "candidate",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "transfer",
+      "target": "MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "transfer",
+      "target": "PUBLICATION_MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "guard_runner",
+      "target": "existing",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "guard_runner",
+      "target": "package",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "guard_runner",
+      "target": "candidate",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "guard_runner",
+      "target": "MANIFEST.json",
+      "rejected_before_write": true
+    },
+    {
+      "entry": "guard_runner",
+      "target": "PUBLICATION_MANIFEST.json",
+      "rejected_before_write": true
+    }
+  ],
+  "checker_sha256": "3c817cdb237fbbe3efed4c09e48ef74c6b7eb82f99e4cf8ac8c5d1d5447ea230"
+}

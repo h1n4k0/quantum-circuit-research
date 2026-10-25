@@ -1,0 +1,15 @@
+{
+  "changes": [
+    {
+      "exponent": 18,
+      "before": 12,
+      "after": 11,
+      "shear": [
+        1,
+        5
+      ]
+    }
+  ],
+  "planned_phase_products": 69,
+  "source_sha256": "fc37886611a9245bab10d454ac4a07d538a534c28b3bdcbceeefda9211c3b1e7"
+}

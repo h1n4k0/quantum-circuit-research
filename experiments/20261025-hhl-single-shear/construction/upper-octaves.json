@@ -1,0 +1,1688 @@
+{
+  "status": "EXACT_TABLE_SCREEN_ONLY",
+  "constants_sha256": "09e9d869cf54ec76361641aab0a83fa1122b2051ad383def3da16dae12e95370",
+  "best": [
+    {
+      "exponent": 18,
+      "floor": 11,
+      "n": 7,
+      "shear": [
+        1,
+        5
+      ],
+      "polarity": 126,
+      "left_mask": 83,
+      "left_masks": [
+        16,
+        64,
+        18,
+        66,
+        80,
+        82,
+        83
+      ],
+      "right_masks": [
+        12,
+        36,
+        40,
+        44
+      ],
+      "terms": [
+        [
+          0,
+          71533759440208
+        ],
+        [
+          4,
+          3380173239553
+        ],
+        [
+          8,
+          2462560072450
+        ],
+        [
+          12,
+          4879704134656
+        ],
+        [
+          16,
+          4902135356676
+        ],
+        [
+          20,
+          843357295872
+        ],
+        [
+          24,
+          740704107568
+        ],
+        [
+          26,
+          695265640707
+        ],
+        [
+          28,
+          10414361855536
+        ],
+        [
+          30,
+          695265640707
+        ],
+        [
+          32,
+          12672824557577
+        ],
+        [
+          36,
+          2684405592066
+        ],
+        [
+          40,
+          6527529241607
+        ],
+        [
+          44,
+          7222844751362
+        ],
+        [
+          48,
+          33646540664066
+        ],
+        [
+          52,
+          1041583654964
+        ],
+        [
+          54,
+          3506203729408
+        ],
+        [
+          56,
+          6381924804355
+        ],
+        [
+          58,
+          2030564063235
+        ],
+        [
+          60,
+          13843911827973
+        ],
+        [
+          62,
+          3343749828099
+        ],
+        [
+          64,
+          24526093658426
+        ],
+        [
+          66,
+          1188313554176
+        ],
+        [
+          68,
+          14799652244224
+        ],
+        [
+          70,
+          11274501377
+        ],
+        [
+          72,
+          15771256211971
+        ],
+        [
+          74,
+          84777280768
+        ],
+        [
+          76,
+          13240227506182
+        ],
+        [
+          78,
+          98215773441
+        ],
+        [
+          80,
+          13540422705411
+        ],
+        [
+          82,
+          254040832000
+        ],
+        [
+          84,
+          53233301797122
+        ],
+        [
+          86,
+          17951870977
+        ],
+        [
+          88,
+          61169737244723
+        ],
+        [
+          90,
+          8006474524675
+        ],
+        [
+          92,
+          67443944976938
+        ],
+        [
+          94,
+          6300940019958
+        ],
+        [
+          95,
+          2063263042816
+        ],
+        [
+          96,
+          64976011869458
+        ],
+        [
+          98,
+          17585911563267
+        ],
+        [
+          100,
+          1499078040576
+        ],
+        [
+          102,
+          17046087811331
+        ],
+        [
+          104,
+          3547980432387
+        ],
+        [
+          106,
+          14833340770306
+        ],
+        [
+          108,
+          33806896423430
+        ],
+        [
+          110,
+          15814623650305
+        ],
+        [
+          112,
+          3039060215043
+        ],
+        [
+          114,
+          9043926231308
+        ],
+        [
+          116,
+          61882161136955
+        ],
+        [
+          118,
+          4813315788559
+        ],
+        [
+          120,
+          54274507328014
+        ],
+        [
+          122,
+          12461277334543
+        ],
+        [
+          124,
+          45513388335633
+        ],
+        [
+          126,
+          273077316708109
+        ],
+        [
+          127,
+          280239704936192
+        ]
+      ],
+      "phase_products": 11
+    },
+    {
+      "exponent": 19,
+      "floor": 13,
+      "n": 6,
+      "shear": [
+        2,
+        4
+      ],
+      "polarity": 62,
+      "left_mask": 25,
+      "left_masks": [
+        8,
+        16,
+        9,
+        17,
+        24,
+        25
+      ],
+      "right_masks": [
+        6,
+        34,
+        36,
+        38
+      ],
+      "terms": [
+        [
+          0,
+          36921354173737
+        ],
+        [
+          2,
+          4087332947971
+        ],
+        [
+          4,
+          1198396685057
+        ],
+        [
+          6,
+          2463130479874
+        ],
+        [
+          8,
+          2729536349698
+        ],
+        [
+          10,
+          5274320946436
+        ],
+        [
+          12,
+          339823545344
+        ],
+        [
+          14,
+          5085762670444
+        ],
+        [
+          15,
+          355609916160
+        ],
+        [
+          16,
+          5132402583557
+        ],
+        [
+          18,
+          3738752312322
+        ],
+        [
+          20,
+          2813237647875
+        ],
+        [
+          22,
+          3499527320425
+        ],
+        [
+          23,
+          413005747200
+        ],
+        [
+          24,
+          16972980049153
+        ],
+        [
+          26,
+          5289739255322
+        ],
+        [
+          28,
+          2419862720540
+        ],
+        [
+          30,
+          6607814418540
+        ],
+        [
+          31,
+          696171147264
+        ],
+        [
+          32,
+          13274760608799
+        ],
+        [
+          34,
+          819164629517
+        ],
+        [
+          36,
+          7730372386051
+        ],
+        [
+          38,
+          6782726567437
+        ],
+        [
+          40,
+          33009901025148
+        ],
+        [
+          41,
+          716437521423
+        ],
+        [
+          42,
+          5519654508042
+        ],
+        [
+          43,
+          1137310695695
+        ],
+        [
+          44,
+          26398833047821
+        ],
+        [
+          45,
+          116786208782
+        ],
+        [
+          46,
+          31974003504995
+        ],
+        [
+          47,
+          1189588561934
+        ],
+        [
+          48,
+          32596123943034
+        ],
+        [
+          49,
+          8074354041089
+        ],
+        [
+          50,
+          1156235764748
+        ],
+        [
+          51,
+          8295192464897
+        ],
+        [
+          52,
+          8204211238914
+        ],
+        [
+          53,
+          7234939544065
+        ],
+        [
+          54,
+          10793326978151
+        ],
+        [
+          55,
+          7561022353409
+        ],
+        [
+          56,
+          31967532497274
+        ],
+        [
+          57,
+          5233015106830
+        ],
+        [
+          58,
+          2929503337493
+        ],
+        [
+          59,
+          2820032851214
+        ],
+        [
+          60,
+          31909377536272
+        ],
+        [
+          61,
+          7207240796687
+        ],
+        [
+          62,
+          116009550307453
+        ],
+        [
+          63,
+          139917805813264
+        ]
+      ],
+      "phase_products": 10
+    },
+    {
+      "exponent": 20,
+      "floor": 14,
+      "n": 6,
+      "shear": null,
+      "polarity": 58,
+      "left_mask": 49,
+      "left_masks": [
+        16,
+        32,
+        48,
+        49
+      ],
+      "right_masks": [
+        6,
+        10,
+        12,
+        14
+      ],
+      "terms": [
+        [
+          0,
+          18458127471876
+        ],
+        [
+          2,
+          2030865460225
+        ],
+        [
+          4,
+          587068412928
+        ],
+        [
+          6,
+          1227186382081
+        ],
+        [
+          8,
+          1369474179330
+        ],
+        [
+          10,
+          2641287672065
+        ],
+        [
+          12,
+          157320475651
+        ],
+        [
+          14,
+          2607599016705
+        ],
+        [
+          16,
+          3968382452227
+        ],
+        [
+          18,
+          1353871835649
+        ],
+        [
+          20,
+          1393079610113
+        ],
+        [
+          22,
+          1744260993281
+        ],
+        [
+          24,
+          7193835972364
+        ],
+        [
+          26,
+          3534221943041
+        ],
+        [
+          28,
+          1212808651267
+        ],
+        [
+          30,
+          3333449047297
+        ],
+        [
+          32,
+          6633477492239
+        ],
+        [
+          34,
+          409867529222
+        ],
+        [
+          36,
+          3851094384897
+        ],
+        [
+          38,
+          3370609867014
+        ],
+        [
+          40,
+          16515692952326
+        ],
+        [
+          42,
+          2754769389849
+        ],
+        [
+          44,
+          13220850857472
+        ],
+        [
+          46,
+          15945251169562
+        ],
+        [
+          48,
+          16457258334492
+        ],
+        [
+          50,
+          8125643747636
+        ],
+        [
+          51,
+          533935015171
+        ],
+        [
+          52,
+          4001837541381
+        ],
+        [
+          54,
+          5450565636096
+        ],
+        [
+          55,
+          97643485187
+        ],
+        [
+          56,
+          13281473147648
+        ],
+        [
+          58,
+          64904227701279
+        ],
+        [
+          59,
+          70361213223436
+        ],
+        [
+          60,
+          16069057903167
+        ],
+        [
+          61,
+          1767563642112
+        ],
+        [
+          62,
+          58195371439913
+        ],
+        [
+          63,
+          67890683936525
+        ]
+      ],
+      "phase_products": 8
+    }
+  ],
+  "screens": [
+    {
+      "exponent": 18,
+      "shear": null,
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        0,
+        1
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        0,
+        2
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        0,
+        3
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        0,
+        4
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        0,
+        5
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        0,
+        6
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        1,
+        0
+      ],
+      "phase_products": 14,
+      "polarity": 124,
+      "left_mask": 83
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        1,
+        2
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        1,
+        3
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        1,
+        4
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        1,
+        5
+      ],
+      "phase_products": 11,
+      "polarity": 126,
+      "left_mask": 83
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        1,
+        6
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        2,
+        0
+      ],
+      "phase_products": 15,
+      "polarity": 120,
+      "left_mask": 42
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        2,
+        1
+      ],
+      "phase_products": 12,
+      "polarity": 120,
+      "left_mask": 89
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        2,
+        3
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        2,
+        4
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        2,
+        5
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 83
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        2,
+        6
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        3,
+        0
+      ],
+      "phase_products": 15,
+      "polarity": 117,
+      "left_mask": 38
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        3,
+        1
+      ],
+      "phase_products": 12,
+      "polarity": 86,
+      "left_mask": 85
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        3,
+        2
+      ],
+      "phase_products": 12,
+      "polarity": 94,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        3,
+        4
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        3,
+        5
+      ],
+      "phase_products": 12,
+      "polarity": 116,
+      "left_mask": 83
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        3,
+        6
+      ],
+      "phase_products": 12,
+      "polarity": 94,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        4,
+        0
+      ],
+      "phase_products": 15,
+      "polarity": 109,
+      "left_mask": 38
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        4,
+        1
+      ],
+      "phase_products": 12,
+      "polarity": 108,
+      "left_mask": 77
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        4,
+        2
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        4,
+        3
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        4,
+        5
+      ],
+      "phase_products": 12,
+      "polarity": 92,
+      "left_mask": 77
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        4,
+        6
+      ],
+      "phase_products": 12,
+      "polarity": 108,
+      "left_mask": 77
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        5,
+        0
+      ],
+      "phase_products": 14,
+      "polarity": 93,
+      "left_mask": 82
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        5,
+        1
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        5,
+        2
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        5,
+        3
+      ],
+      "phase_products": 12,
+      "polarity": 94,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        5,
+        4
+      ],
+      "phase_products": 12,
+      "polarity": 124,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        5,
+        6
+      ],
+      "phase_products": 12,
+      "polarity": 94,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        6,
+        0
+      ],
+      "phase_products": 15,
+      "polarity": 61,
+      "left_mask": 38
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        6,
+        1
+      ],
+      "phase_products": 12,
+      "polarity": 30,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        6,
+        2
+      ],
+      "phase_products": 12,
+      "polarity": 30,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        6,
+        3
+      ],
+      "phase_products": 12,
+      "polarity": 60,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        6,
+        4
+      ],
+      "phase_products": 12,
+      "polarity": 30,
+      "left_mask": 29
+    },
+    {
+      "exponent": 18,
+      "shear": [
+        6,
+        5
+      ],
+      "phase_products": 12,
+      "polarity": 60,
+      "left_mask": 29
+    },
+    {
+      "exponent": 19,
+      "shear": null,
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        0,
+        1
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        0,
+        2
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        0,
+        3
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        0,
+        4
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        0,
+        5
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        1,
+        0
+      ],
+      "phase_products": 11,
+      "polarity": 56,
+      "left_mask": 7
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        1,
+        2
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        1,
+        3
+      ],
+      "phase_products": 10,
+      "polarity": 62,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        1,
+        4
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        1,
+        5
+      ],
+      "phase_products": 10,
+      "polarity": 56,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        2,
+        0
+      ],
+      "phase_products": 11,
+      "polarity": 58,
+      "left_mask": 7
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        2,
+        1
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        2,
+        3
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        2,
+        4
+      ],
+      "phase_products": 10,
+      "polarity": 62,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        2,
+        5
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        3,
+        0
+      ],
+      "phase_products": 11,
+      "polarity": 38,
+      "left_mask": 7
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        3,
+        1
+      ],
+      "phase_products": 10,
+      "polarity": 50,
+      "left_mask": 35
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        3,
+        2
+      ],
+      "phase_products": 10,
+      "polarity": 54,
+      "left_mask": 35
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        3,
+        4
+      ],
+      "phase_products": 10,
+      "polarity": 50,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        3,
+        5
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 35
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        4,
+        0
+      ],
+      "phase_products": 11,
+      "polarity": 46,
+      "left_mask": 7
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        4,
+        1
+      ],
+      "phase_products": 10,
+      "polarity": 46,
+      "left_mask": 35
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        4,
+        2
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 35
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        4,
+        3
+      ],
+      "phase_products": 10,
+      "polarity": 46,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        4,
+        5
+      ],
+      "phase_products": 10,
+      "polarity": 62,
+      "left_mask": 35
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        5,
+        0
+      ],
+      "phase_products": 11,
+      "polarity": 24,
+      "left_mask": 7
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        5,
+        1
+      ],
+      "phase_products": 10,
+      "polarity": 26,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        5,
+        2
+      ],
+      "phase_products": 10,
+      "polarity": 30,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        5,
+        3
+      ],
+      "phase_products": 10,
+      "polarity": 30,
+      "left_mask": 25
+    },
+    {
+      "exponent": 19,
+      "shear": [
+        5,
+        4
+      ],
+      "phase_products": 10,
+      "polarity": 26,
+      "left_mask": 25
+    },
+    {
+      "exponent": 20,
+      "shear": null,
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        0,
+        1
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        0,
+        2
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        0,
+        3
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        0,
+        4
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        0,
+        5
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        1,
+        0
+      ],
+      "phase_products": 10,
+      "polarity": 48,
+      "left_mask": 28
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        1,
+        2
+      ],
+      "phase_products": 8,
+      "polarity": 50,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        1,
+        3
+      ],
+      "phase_products": 8,
+      "polarity": 56,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        1,
+        4
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        1,
+        5
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        2,
+        0
+      ],
+      "phase_products": 10,
+      "polarity": 58,
+      "left_mask": 26
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        2,
+        1
+      ],
+      "phase_products": 8,
+      "polarity": 62,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        2,
+        3
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        2,
+        4
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        2,
+        5
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        3,
+        0
+      ],
+      "phase_products": 10,
+      "polarity": 50,
+      "left_mask": 22
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        3,
+        1
+      ],
+      "phase_products": 8,
+      "polarity": 50,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        3,
+        2
+      ],
+      "phase_products": 8,
+      "polarity": 50,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        3,
+        4
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        3,
+        5
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        4,
+        0
+      ],
+      "phase_products": 10,
+      "polarity": 42,
+      "left_mask": 14
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        4,
+        1
+      ],
+      "phase_products": 9,
+      "polarity": 58,
+      "left_mask": 35
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        4,
+        2
+      ],
+      "phase_products": 9,
+      "polarity": 46,
+      "left_mask": 35
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        4,
+        3
+      ],
+      "phase_products": 9,
+      "polarity": 42,
+      "left_mask": 35
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        4,
+        5
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        5,
+        0
+      ],
+      "phase_products": 10,
+      "polarity": 26,
+      "left_mask": 14
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        5,
+        1
+      ],
+      "phase_products": 9,
+      "polarity": 58,
+      "left_mask": 19
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        5,
+        2
+      ],
+      "phase_products": 9,
+      "polarity": 30,
+      "left_mask": 19
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        5,
+        3
+      ],
+      "phase_products": 9,
+      "polarity": 26,
+      "left_mask": 19
+    },
+    {
+      "exponent": 20,
+      "shear": [
+        5,
+        4
+      ],
+      "phase_products": 8,
+      "polarity": 58,
+      "left_mask": 49
+    }
+  ],
+  "jobs": 105,
+  "seconds": 2.5835625659965444,
+  "limitation": "Same deterministic greedy monomial-parent closure as prior plan; no global optimum or emitted resource count."
+}

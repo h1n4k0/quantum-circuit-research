@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "package_manifest_sha256": "1107bbddf7518d6b443a96133843e7796de87156d2c962b491e231d22a93bc65",
+  "source_sha256": "fc37886611a9245bab10d454ac4a07d538a534c28b3bdcbceeefda9211c3b1e7",
+  "reviewer_sha256": "57e651425e9cd35962fab8ab4d10b833413b1aa9b813066e07b6b87812bb057c",
+  "exact_polynomial_selector_classes": 7936,
+  "independent_emitted_census": {
+    "toffoli": 1205,
+    "benchmark_clifford": 13601,
+    "peak_qubits": 115,
+    "expanded_operations": 28588,
+    "final_persistent_io_qubits": 54
+  },
+  "expanded_ops_u64le_sha256": "388899b42b73fb35bee464bc6009abaa75829f1b7cb01473f6ff3eb62a6539e4",
+  "frame_mutations": [
+    {
+      "omitted_frame": "enter",
+      "suffix_checker_rejected": true,
+      "failure_stage": "phase ledger"
+    },
+    {
+      "omitted_frame": "exit",
+      "suffix_checker_rejected": true,
+      "failure_stage": "wire restoration"
+    }
+  ],
+  "replay_report_sha256": {
+    "summary.json": "fcaff8adb0ae4ef2ca175759ca52af56aa189070ba5880d9db4723b8047ef10d",
+    "candidate/report.json": "f87dc7180dca9a3c86606dc7cfff954e5104fd8fad349a17646489edebf63f8e",
+    "baseline/report.json": "fb6aeb7cb23a7bc6d185069dbefa999bc42ed3844487af85466b5ac66aaa60ec",
+    "released/report.json": "3341aa2d83262ff32163209e6bff7de8dce240e923393e1094d319646098f147",
+    "stored/report.json": "f66afdc00dc930da86a63cfbab5631b68f6f453c602d74ca301c8a34cdeab813",
+    "strict.json": "85e68001345e434e7fc33543bcecbc19a378674ad926b6c73070736815d48517",
+    "suffix.json": "5d605b8cd057f20db36aea6b4a9f6720fdb0e9a3492fa95c1b332bbd459a435b",
+    "numeric_transfer.json": "0a3328423336a0f538eba58d3650e5035e79e5b78ff44c5671b89b735824e2bd",
+    "numeric/report.json": "d8b33705b069096d66cd0a63f94988dcf735968103262e93cd22784f86cf9b1e"
+  },
+  "limits": "Independent finite truth-table check, resource/liveness census, and frame-mutation sensitivity, plus fresh invocation of existing verification. No independent all-input/all-accumulator whole-circuit simulator or global optimality proof."
+}
